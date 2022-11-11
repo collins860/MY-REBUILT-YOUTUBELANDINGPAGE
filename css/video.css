@@ -41,7 +41,7 @@
 
 
 
-@media all and (max-width: 1200px){
+@media all and(max-width: 1200px){
   .video-grid{
     grid-template-columns: 1fr 1fr 1fr;
   }
