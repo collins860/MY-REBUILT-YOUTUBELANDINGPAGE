@@ -47,13 +47,13 @@
   }
 }
 
-@media all and(max-width: 900px){
+@media (max-width: 900px){
   .video-grid{
    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media all and(max-width:500px){
+@media (max-width:500px){
   .video-grid{
     display: flex;
     flex-direction: column;
