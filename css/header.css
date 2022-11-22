@@ -68,6 +68,7 @@
   opacity: 0;
   transition: opacity 0.15s;
   pointer-events: none;
+   overflow:visible;
   white-space: nowrap;
 }
 
@@ -79,6 +80,7 @@
    .notifications-count-container:hover
    .tooltip{
   opacity: 1;
+   overflow:visible;
 }
 
 .voice-button{
