@@ -41,19 +41,19 @@
 
 
 
-@media all and(max-width: 1200px){
+@media all and(max-width: 1200px) and (orientation: landscape){
   .video-grid{
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media all and(max-width: 900px){
+@media all and(max-width: 900px) and (orientation: landscape){
   .video-grid{
    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media all and(max-width: 650px){
+@media all and(max-width : 650px) and (orientation: landscape){
   .video-grid{
     display: flex;
     flex-direction: column;
