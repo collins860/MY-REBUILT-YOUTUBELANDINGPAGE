@@ -40,22 +40,22 @@
 
 
 
-
-@media all and(max-width: 1200px) and (orientation: landscape){
+@media (max-width: 1200px){
   .video-grid{
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media all and(max-width: 900px) and (orientation: landscape){
+@media (max-width: 900px){
   .video-grid{
-   grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
+
 }
 
-@media all and(max-width : 650px) and (orientation: landscape){
+@media (max-width:500px){
   .video-grid{
     display: flex;
     flex-direction: column;
-  } 
-}
+  }
+} 
