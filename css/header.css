@@ -162,7 +162,7 @@
 
 @media (max-width: 500px){
 .header{
-  overflow-x: scroll;
+  overflow-y: scroll;
   width: 100%;
 }
 } 
