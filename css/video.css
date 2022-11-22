@@ -41,19 +41,19 @@
 
 
 
-@media all and(max-width: 1200px){
+@media only screen and(max-width: 1200px){
   .video-grid{
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media (max-width: 900px){
+@media only screen and(max-width: 900px){
   .video-grid{
    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (max-width:500px){
+@media only screen and(max-width: 500px){
   .video-grid{
     display: flex;
     flex-direction: column;
